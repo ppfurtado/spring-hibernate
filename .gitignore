@@ -1,0 +1,47 @@
+*.java.hsp
+*.sonarj
+*.sw*
+.DS_Store
+.settings
+.springBeans
+bin
+build.sh
+integration-repo
+ivy-cache
+jxl.log
+jmx.log
+derby.log
+spring-test/test-output/
+.gradle
+argfile*
+pom.xml
+activemq-data/
+
+classes/
+/build
+buildSrc/build
+spring-demo-one/spring-*/build
+spring-demo-one/spring-core/kotlin-coroutines/build
+spring-demo-one/spring-core/graalvm/build
+spring-demo-one/framework-bom/build
+spring-demo-one/integration-tests/build
+spring-demo-one/src/asciidoc/build
+spring-demo-one/target/
+
+# Eclipse artifacts, including WTP generated manifests
+.classpath
+.project
+spring-*/src/main/java/META-INF/MANIFEST.MF
+
+# IDEA artifacts and output dirs
+ing-demo-one/*.iml
+ing-demo-one/*.ipr
+ing-demo-one/*.iws
+ing-demo-one/.idea
+out
+test-output
+atlassian-ide-plugin.xml
+.gradletasknamecache
+
+# VS Code
+.vscode/
