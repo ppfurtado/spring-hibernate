@@ -23,4 +23,13 @@ public class TrackCoach implements Coach {
     public String getDailyFortune() {
         return "Just it " + fortuneService.getFortune();
     }
+
+    //adicionar método para inicionar no bean
+    public void doMyStartupStuff(){
+        System.out.println("TrackCoach: inside method doMyStartupStuff");
+    }
+    //adicionar método para destruir no bean
+    public void doMyCleanupStuffYoYo(){
+        System.out.println("TrackCoach: inside method doMyCleanupStuffYoYo");
+    }
 }
