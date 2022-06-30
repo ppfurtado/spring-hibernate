@@ -8,13 +8,14 @@
     http://www.springframework.org/schema/context/spring-context.xsd">
     <!-- definir dependencia -->
     <bean id="myFortuneService"
-          class="com.ppfurtadocode.springdemo.HappyFortuneService">
+          class="com.ppfurtadocode.springdemo.service.HappyFortuneService">
     </bean>
 
     <!-- Define your beans here -->
     <bean id="myCoach"
-          class="com.ppfurtadocode.springdemo.TrackCoach"
-          scope="prototype">
+          class="com.ppfurtadocode.springdemo.model.TrackCoach"
+          init-method="doMyStartupStuff"
+          destroy-method="doMyCleanupStuffYoYo"  >
             <constructor-arg ref="myFortuneService"/>
     </bean>
 

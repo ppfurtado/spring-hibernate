@@ -1,4 +1,4 @@
-package com.ppfurtadocode.springdemo;
+package com.ppfurtadocode.springdemo.service;
 
 import java.util.Random;
 

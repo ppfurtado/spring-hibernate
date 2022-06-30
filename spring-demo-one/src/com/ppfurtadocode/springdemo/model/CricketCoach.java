@@ -1,4 +1,6 @@
-package com.ppfurtadocode.springdemo;
+package com.ppfurtadocode.springdemo.model;
+
+import com.ppfurtadocode.springdemo.service.FortuneService;
 
 public class CricketCoach implements Coach {
 

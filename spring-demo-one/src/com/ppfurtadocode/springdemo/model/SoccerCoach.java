@@ -1,6 +1,6 @@
-package com.ppfurtadocode.springdemo;
+package com.ppfurtadocode.springdemo.model;
 
-public class SoccerCoach implements Coach{
+public class SoccerCoach implements Coach {
     @Override
     public String getDailyWorkout() {
         return "Gonna try ball long";

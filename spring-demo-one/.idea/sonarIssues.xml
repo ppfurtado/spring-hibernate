@@ -3,6 +3,11 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="$PROJECT_DIR$/../../../PD/totvs-gestor/src/main/java/com/totvs/gestor/service/BuscaClienteService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/applicationContext.xml">
           <value>
             <set />
@@ -59,6 +64,61 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/com/ppfurtadocode/springdemo/TrackCoach.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/com/ppfurtadocode/springdemo/config/context/applicationContext.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/com/ppfurtadocode/springdemo/config/logger/MyLoggerConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/com/ppfurtadocode/springdemo/model/BaseBallCoach.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/com/ppfurtadocode/springdemo/model/CricketCoach.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/com/ppfurtadocode/springdemo/model/SoccerCoach.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/com/ppfurtadocode/springdemo/model/TrackCoach.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/com/ppfurtadocode/springdemo/service/HappyFortuneService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/com/ppfurtadocode/springdemo/testerMains/BeanLifeCycleDemoApp.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/com/ppfurtadocode/springdemo/testerMains/BeanScopeDemoApp.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/com/ppfurtadocode/springdemo/testerMains/HelloSpringApp.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/com/ppfurtadocode/springdemo/testerMains/SetterDemoApp.java">
           <value>
             <set />
           </value>

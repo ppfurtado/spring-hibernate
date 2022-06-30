@@ -1,6 +1,6 @@
-package com.ppfurtadocode.springdemo;
+package com.ppfurtadocode.springdemo.model;
 
-import java.util.Date;
+import com.ppfurtadocode.springdemo.service.FortuneService;
 
 public class BaseBallCoach implements Coach {
 

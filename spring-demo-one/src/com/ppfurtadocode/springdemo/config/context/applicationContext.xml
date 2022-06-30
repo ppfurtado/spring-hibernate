@@ -10,16 +10,16 @@
     <!-- Carregando o arquivo de propriedades    -->
     <context:property-placeholder location="classpath:sport.properties" />
     <bean id="myFortuneService"
-          class="com.ppfurtadocode.springdemo.HappyFortuneService">
+          class="com.ppfurtadocode.springdemo.service.HappyFortuneService">
     </bean>
 
     <!-- Define your beans here -->
     <bean id="myCoach"
-          class="com.ppfurtadocode.springdemo.TrackCoach">
+          class="com.ppfurtadocode.springdemo.model.TrackCoach">
             <constructor-arg ref="myFortuneService"/>
     </bean>
 
-    <bean id="myCricketCoah" class="com.ppfurtadocode.springdemo.CricketCoach">
+    <bean id="myCricketCoah" class="com.ppfurtadocode.springdemo.model.CricketCoach">
 
         <!--  set up setter injection  -->
         <property name="fortuneService" ref="myFortuneService"/>
@@ -34,7 +34,7 @@
 	- For more detailed logs, set values to "FINEST"
 	- For info on logging levels, see: http://www.vogella.com/tutorials/Logging/article.html
  -->
-    <bean id="myLoggerConfig" class="com.ppfurtadocode.springdemo.MyLoggerConfig" init-method="initLogger">
+    <bean id="myLoggerConfig" class="com.ppfurtadocode.springdemo.config.logger.MyLoggerConfig" init-method="initLogger">
         <property name="rootLoggerLevel" value="FINE" />
         <property name="printedLoggerLevel" value="FINE"/>
     </bean>
