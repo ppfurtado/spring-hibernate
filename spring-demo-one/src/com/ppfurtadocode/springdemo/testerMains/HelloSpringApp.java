@@ -1,5 +1,6 @@
-package com.ppfurtadocode.springdemo;
+package com.ppfurtadocode.springdemo.testerMains;
 
+import com.ppfurtadocode.springdemo.model.Coach;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class HelloSpringApp {
@@ -8,7 +9,7 @@ public class HelloSpringApp {
 
         //Carregar os arquivos de configurações
         ClassPathXmlApplicationContext context =
-                 new ClassPathXmlApplicationContext("applicationContext.xml");
+                 new ClassPathXmlApplicationContext("com/ppfurtadocode/springdemo/config/context/applicationContext.xml");
 
         // Recuperar o bean do container spring
         Coach theCoach = context.getBean("myCoach", Coach.class);

@@ -1,5 +1,6 @@
-package com.ppfurtadocode.springdemo;
+package com.ppfurtadocode.springdemo.testerMains;
 
+import com.ppfurtadocode.springdemo.model.Coach;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class BeanLifeCycleDemoApp {
@@ -7,7 +8,7 @@ public class BeanLifeCycleDemoApp {
 
 
 //        carregar o arquivo de configuração  do spring
-        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("beanLifeCycle-applicationContext.xml");
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("com/ppfurtadocode/springdemo/config/context/beanLifeCycle-applicationContext.xml");
 
 
 //        recuperando bean do container spring

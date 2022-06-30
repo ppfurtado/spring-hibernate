@@ -1,4 +1,7 @@
-package com.ppfurtadocode.springdemo;
+package com.ppfurtadocode.springdemo.testerMains;
+
+import com.ppfurtadocode.springdemo.model.Coach;
+import com.ppfurtadocode.springdemo.model.TrackCoach;
 
 public class MyApp {
 

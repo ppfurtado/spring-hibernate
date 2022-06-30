@@ -1,4 +1,4 @@
-package com.ppfurtadocode.springdemo;
+package com.ppfurtadocode.springdemo.config.logger;
 
 import java.util.logging.ConsoleHandler;
 import java.util.logging.Level;

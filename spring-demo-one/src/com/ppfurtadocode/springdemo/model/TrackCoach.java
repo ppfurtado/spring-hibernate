@@ -1,7 +1,6 @@
-package com.ppfurtadocode.springdemo;
+package com.ppfurtadocode.springdemo.model;
 
-import java.time.Instant;
-import java.util.Date;
+import com.ppfurtadocode.springdemo.service.FortuneService;
 
 public class TrackCoach implements Coach {
 

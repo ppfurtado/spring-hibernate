@@ -1,12 +1,13 @@
-package com.ppfurtadocode.springdemo;
+package com.ppfurtadocode.springdemo.testerMains;
 
+import com.ppfurtadocode.springdemo.model.CricketCoach;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class SetterDemoApp {
     public static void main(String[] args) {
 
         //  Carregar o arquivo de configuração
-        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("com/ppfurtadocode/springdemo/config/context/applicationContext.xml");
 
         //  recuperar bean do container spring
         CricketCoach theCoach = context.getBean("myCricketCoah", CricketCoach.class);

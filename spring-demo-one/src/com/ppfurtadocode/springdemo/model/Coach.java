@@ -1,4 +1,4 @@
-package com.ppfurtadocode.springdemo;
+package com.ppfurtadocode.springdemo.model;
 
 import java.util.Date;
 
