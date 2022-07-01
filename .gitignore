@@ -38,7 +38,8 @@ spring-demo-one/*.iml
 spring-demo-one/*.ipr
 spring-demo-one/*.iws
 spring-demo-one/.idea
-spring-demo-one/.idea/vcs.xml
+spring-demo-one/.idea/*.xml
+
 
 out
 test-output
