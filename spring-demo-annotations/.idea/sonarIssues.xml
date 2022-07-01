@@ -38,7 +38,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/com/ppfurtado/springannotation/service/RandomService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/com/ppfurtado/springannotation/service/ipmt/DatabaseForuneService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/com/ppfurtado/springannotation/service/ipmt/HappyFortuneService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/com/ppfurtado/springannotation/service/ipmt/RESTFortuneService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/com/ppfurtado/springannotation/service/ipmt/RandomService.java">
           <value>
             <set />
           </value>
