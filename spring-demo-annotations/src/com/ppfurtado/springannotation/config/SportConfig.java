@@ -7,11 +7,12 @@ import com.ppfurtado.springannotation.service.ipmt.SadFortuneService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.PropertySources;
+import org.springframework.context.annotation.PropertySource;
+
 
 @Configuration
 //@ComponentScan("com.ppfurtado.springannotation")
-@PropertySources("classpath:com/ppfurtado/springannotation/properties/sport.properties")
+@PropertySource("classpath:com/ppfurtado/springannotation/properties/sport.properties")
 public class SportConfig {
 
     // definindo bean para  nossa sad fortune service
