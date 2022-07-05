@@ -11,7 +11,7 @@ public class SwimJavaConfigDemoApp {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(SportConfig.class);
 
         // obter bean do container spring
-        Coach theCoach = context.getBean("swimCoach", Coach.class);
+        SwimCoach theCoach = context.getBean("swimCoach", SwimCoach.class);
 
         // chamar um método no bean
         System.out.println(theCoach.getDailyWorkout());
@@ -19,6 +19,9 @@ public class SwimJavaConfigDemoApp {
         // chamar o método getDailyDortune
         System.out.println(theCoach.getDailyFortune());
 
+        // chamar novos métodos coach swim com os valores carregados do arquivo de propriedades
+        System.out.println("Email: " +theCoach.getEmail());
+        System.out.println("Team: " +theCoach.getTeam());
 
         // fechar o context
         context.close();
