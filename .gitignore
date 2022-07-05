@@ -28,6 +28,14 @@ spring-demo-one/integration-tests/build
 spring-demo-one/src/asciidoc/build
 spring-demo-one/target/
 
+spring-mvc-demo/spring-*/build
+spring-mvc-demo/spring-core/kotlin-coroutines/build
+spring-mvc-demo/spring-core/graalvm/build
+spring-mvc-demo/framework-bom/build
+spring-mvc-demo/integration-tests/build
+spring-mvc-demo/src/asciidoc/build
+spring-mvc-demo/target
+
 # Eclipse artifacts, including WTP generated manifests
 .classpath
 .project
@@ -41,6 +49,8 @@ spring-demo-one/.idea
 spring-demo-one/.idea/*.xml
 spring-demo-one/.idea/sonarIssues.xml
 spring-demo-annotations/.idea/*.xml
+spring-mvc-demo/.idea
+spring-mvc-demo/.idea
 
 
 out
