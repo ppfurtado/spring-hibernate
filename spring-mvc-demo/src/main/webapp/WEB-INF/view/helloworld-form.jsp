@@ -9,7 +9,7 @@
 </head>
 <body>
 
-    <form action="${pageContext.request.contextPath}/processFormVersionTwo" method="GET">
+    <form action="${pageContext.request.contextPath}/hello/processFormVersionThree" method="GET">
         <input type="text" name="studentName"
             placeholder="Waht's is your name?"/>
         <input type="submit" />
