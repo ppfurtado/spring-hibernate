@@ -10,6 +10,6 @@
 <body>
     <h2>SPRING MVC DEMO - Home page</h2>
 
-    <a href="${pageContext.request.contextPath}/showForm" > Hello World form</a>
+    <a href="${pageContext.request.contextPath}/hello/showForm" > Hello World form</a>
 </body>
 </html>
