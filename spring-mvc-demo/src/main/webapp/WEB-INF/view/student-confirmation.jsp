@@ -12,7 +12,7 @@
 </head>
 <body>
     The student  is Confirmed: ${student.firstName} ${student.lastName}
-    Test
+    Tests
 
 </body>
 </html>
